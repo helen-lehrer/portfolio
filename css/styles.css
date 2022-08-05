@@ -1,0 +1,45 @@
+body {
+  font-family: Monaco, monospace;
+  background-color: rgb(255, 247, 176);
+}
+body .aboutMe {
+  background-color: #b49cd0;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+h1, h2, div {
+  margin: 30px;
+  text-align: center;
+}
+.motto {
+  border-style: solid;
+  margin: auto;
+  width: 175px;
+  padding: 5px;
+}
+.initials {
+  color: #ca5663;
+  display: inline;
+}
+.OG {
+  color: #b39cd3;
+}
+a:link {
+  text-decoration: none;
+  color: #86749c;
+}
+a:visited {
+  text-decoration: none;
+  color: #86749c;
+}
+a:hover {
+  text-decoration: none;
+  color: #ca5663;
+}
+a:active {
+  text-decoration: none;
+  color: #b39cd3;
+}
