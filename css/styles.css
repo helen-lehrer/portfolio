@@ -2,17 +2,35 @@ body {
   font-family: Monaco, monospace;
   background-color: rgb(255, 247, 176);
 }
-body .aboutMe {
-  background-color: #b49cd0;
-}
 img {
   display: block;
-  margin: auto;
-  width: 30%;
-}
-h1, h2, div {
+  float: left;
+  width: 230px;
   margin: 30px;
+  border-style: solid;
+}
+div.aboutMe {
+  background-color: #b49cd0;
+  text-align: left;
+  padding: 20px;
+}
+div.skills {
+  background-color: #b49cd0;
+  text-align: left;
+  padding: 10px;
+}
+div.resume {
+  text-align: left;
+  padding: 10px;
+}
+.title {
   text-align: center;
+}
+.aboutMe h2 {
+  text-align: left;
+}
+.funFacts {
+  margin-left: 270px;
 }
 .motto {
   border-style: solid;
@@ -20,26 +38,34 @@ h1, h2, div {
   width: 175px;
   padding: 5px;
 }
+.webDev {
+  text-decoration: underline;
+}
 .initials {
-  color: #ca5663;
+  color: #a93040;
   display: inline;
 }
 .OG {
-  color: #b39cd3;
+  color: #b49cd0;
 }
 a:link {
   text-decoration: none;
-  color: #86749c;
+  color: #ad4652;
 }
 a:visited {
   text-decoration: none;
-  color: #86749c;
+  color: #a93040;
 }
 a:hover {
   text-decoration: none;
-  color: #ca5663;
+  color: #e66d7b;
 }
 a:active {
   text-decoration: none;
-  color: #b39cd3;
+  color: #fa8895;
+}
+.projectOne, .projectTwo, .projectThree, .projectFour, .projectFive, .education, .experience, .skillsLists {
+  padding: 10px;
+  border-style: solid;
+  margin: 15px;
 }
