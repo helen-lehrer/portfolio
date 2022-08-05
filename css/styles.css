@@ -2,70 +2,104 @@ body {
   font-family: Monaco, monospace;
   background-color: rgb(255, 247, 176);
 }
+
 img {
   display: block;
   float: left;
-  width: 230px;
+  width: 280px;
   margin: 30px;
   border-style: solid;
 }
+
+li {
+  margin: 10px;
+  list-style-type: circle;
+}
+
 div.aboutMe {
   background-color: #b49cd0;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
 }
+
 div.skills {
   background-color: #b49cd0;
   text-align: left;
   padding: 10px;
 }
+
 div.resume {
   text-align: left;
   padding: 10px;
 }
+
 .title {
   text-align: center;
 }
+
 .aboutMe h2 {
   text-align: left;
 }
+
 .funFacts {
-  margin-left: 270px;
+  margin-left: 330px;
+  list-style-type: decimal;
 }
+
+.funFacts li {
+  list-style-type: decimal;
+}
+
+.funFacts .shadow li {
+    list-style-type: disc;
+}
+
 .motto {
   border-style: solid;
   margin: auto;
   width: 175px;
   padding: 5px;
 }
+
 .webDev {
   text-decoration: underline;
 }
+
 .initials {
   color: #a93040;
   display: inline;
 }
+
 .OG {
   color: #b49cd0;
 }
+
 a:link {
   text-decoration: none;
   color: #ad4652;
 }
+
 a:visited {
   text-decoration: none;
   color: #a93040;
 }
+
 a:hover {
   text-decoration: none;
   color: #e66d7b;
 }
+
 a:active {
   text-decoration: none;
   color: #fa8895;
 }
+
 .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive, .education, .experience, .skillsLists {
   padding: 10px;
   border-style: solid;
   margin: 15px;
+}
+
+.projects a {
+  font-size: 18px;
 }
