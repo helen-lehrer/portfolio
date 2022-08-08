@@ -3,13 +3,22 @@ body {
   background-color: rgb(255, 247, 176);
 }
 
-img {
+.aboutMe img {
   display: block;
   float: left;
   width: 280px;
   margin: 30px;
   border-style: solid;
   border-width: 2px;
+}
+
+.row img {
+  width: 100%;
+  padding: 10px;
+}
+
+.row a {
+  font-size: 20px;
 }
 
 li {
@@ -98,6 +107,3 @@ a:active {
   border-width: 2px;
 }
 
-.projects a {
-  font-size: 18px;
-}
